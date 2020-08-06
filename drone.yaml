@@ -13,10 +13,10 @@ steps:
       from_secret: u_docker
     password: 
       from_secret: p_docker
-    repo: luisredda/drone-python-starter
+    repo: peterhack/drone-python-starter
     auto_tag: true
 - name: harness-deploy
-  image: luisredda/drone-simple-plugin
+  image: peterhack/drone-simple-plugin
   settings:  
     application: "ECommerce"
     pipeline: "Deploy to K8s"
