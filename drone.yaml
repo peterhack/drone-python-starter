@@ -16,7 +16,7 @@ steps:
     repo: peterhack/drone-python-starter
     auto_tag: true
 - name: harness-deploy
-  image: peterhack/drone-python-starter
+  image: peterhack/drone-simple-plugin
   settings:  
     application: "ECommerce"
     pipeline: "Deploy to K8s"
